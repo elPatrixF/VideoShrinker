@@ -1,6 +1,6 @@
 # VideoShrinker
 Simple explorer extension called VideoShrinker that allows you to right click on a video file and quickly compress it so that it's small enough to send them through Discord (10MB). Uses ffmpeg. Offered as is, posting it in case someone finds it useful.
-This was designed for Windows 10, but it should also work with no problem on any 64-bit version of Windows.
+This was designed for Windows 10, but it should also work with no problem on any 64-bit version of Windows, as old as Windows 7.
 
 I've uploaded the files here just so you can see the contents of the script files to confirm they're safe.
 The only files missing are ffmpeg_v and ffprobe_v. Which are just ffmpeg.exe and ffprobe.exe but renamed.
