@@ -3,7 +3,7 @@ Simple explorer extension called VideoShrinker that allows you to right click on
 This was designed for Windows 10, but it should also work with no problem on any 64-bit version of Windows, as old as Windows 7.
 
 I've uploaded the files here just so you can see the contents of the script files to confirm they're safe.
-The only files missing are ffmpeg_v and ffprobe_v. Which are just ffmpeg.exe and ffprobe.exe but renamed.
+The only files missing are ffmpeg_v.exe and ffprobe_v.exe. Which are just ffmpeg.exe and ffprobe.exe but renamed.
 You can use the ones bundled in the autoinstaller or you build your own version of ffmpeg and ffprobe.
 The version used here is the "essentials" build from https://www.gyan.dev/ffmpeg/builds/
 
