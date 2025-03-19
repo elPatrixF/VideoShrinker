@@ -60,7 +60,7 @@ A: If the resulting video ends up being larger than you need it you can try opti
 
 Q: The resulting video looks awful! How can I make it look better?
 
-A: You can select "Shrink Video..." and then chooose option "7".
+A: You can select "Shrink Video..." and then chooose option "1".
    This will trim the video to the last 30 seconds, which will make it look better.
    Alternately you can press "5" to use the H.265 codec instead of the default H.264 one.
    It will take a bit longer but it will look slightly better, at the same file size.
