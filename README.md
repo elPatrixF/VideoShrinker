@@ -17,7 +17,8 @@ The version used here is the "essentials" build from https://www.gyan.dev/ffmpeg
 Download and run the self extracting autoinstaller here:
 https://mega.nz/file/ySRSiZ4R#Yc9oRfSSMjsPPAKB1Wcn8K6UlgiGGbZ6MyDIxiOkHRw
 (Includes ffmpeg, ffprobe, cmdmp3, registry fixes, icon, and the batch files)
-You can also download this same file from the releases page here.
+
+You can also download this same file from the releases page [here](https://github.com/elPatrixF/VideoShrinker/releases/tag/release).
 
 ## Manual installation
 Download the self extracting autoinstaller and extract the contents of it using winrar, or 7zip, to the path C:\ProgramData\VideoShrinker\
