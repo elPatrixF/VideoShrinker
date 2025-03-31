@@ -38,6 +38,7 @@ echo   "                                                           "
 echo    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""     
 echo[
 reg import %~dp0\uninstall.reg
+del "%APPDATA%\Microsoft\Windows\SendTo\VideoShrinker (for multiple files).lnk"
 echo VideoShrinker is now uninstalled!
 echo Feel free to delete the folder C:\ProgramData\VideoShrinker\
 echo[

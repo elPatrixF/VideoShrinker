@@ -38,6 +38,7 @@ echo   "                                                           "
 echo    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""     
 echo[
 reg import %~dp0\install.reg
+copy "%~dp0\VideoShrinker (for multiple files).lnk" "%APPDATA%\Microsoft\Windows\SendTo\VideoShrinker (for multiple files).lnk"
 echo VideoShrinker is now installed!
 echo[
 echo Right click on a video file and select "Shrink video..." to shrink a video.
