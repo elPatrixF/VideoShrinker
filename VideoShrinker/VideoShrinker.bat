@@ -26,7 +26,7 @@ echo  "  | | / (_)__/ /__ ___    / __/ /  ____(_)__  / /_____ ____  "
 echo "   | |/ / / _  / -_) _ \  _\ \/ _ \/ __/ / _ \/  '_/ -_) __/   "
 echo  "  |___/_/\_,_/\__/\___/ /___/_//_/_/ /_/_//_/_/\_\\__/_/     "
 echo   "                                                           "         elPatrixF.com
-echo    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""            v15.3.2025.2
+echo    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""            v31.3.2025.1
 echo[
 
 echo *********************************
@@ -104,7 +104,8 @@ cmdmp3 tada.wav > nul
 goto end
 
 :error
-echo ERROR: 
+echo ERROR: No files selected! (This could be because you opened the batch file directly, and you're not supposed to do that)
+echo        Either drag and drop files to this batch file, or try installing the program again.
 pause
 
 :end
