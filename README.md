@@ -15,9 +15,9 @@ The version used here is the "essentials" build from https://www.gyan.dev/ffmpeg
 # Download
 ## Automatic installation
 Download and run the self extracting autoinstaller here:
-
-https://mega.nz/file/iLATxRCR#dBt5N4oJoKqupVTdRjZcJmKt2WINjHx17JmG5XmkgN8
+https://mega.nz/file/ySRSiZ4R#Yc9oRfSSMjsPPAKB1Wcn8K6UlgiGGbZ6MyDIxiOkHRw
 (Includes ffmpeg, ffprobe, cmdmp3, registry fixes, icon, and the batch files)
+You can also download this same file from the releases page here.
 
 ## Manual installation
 Download the self extracting autoinstaller and extract the contents of it using winrar, or 7zip, to the path C:\ProgramData\VideoShrinker\
@@ -88,6 +88,10 @@ All the script does is call ffprobe to check the video length, present the optio
 The main focus of this program was to be able to shrink videos quickly and in a very simple fashion, so the options are limited on purpose.
 
 The `Install.reg` file contains the registry entries which add the context menu options to the specified file extensions. If you know what you're doing you can add your own desired file formats there and merge the registry entries again.
+
+If you don't mind cluttering your "Send to" menu, you can add or remove things by running `shell:sendto` on the command line prompt, or browsing to `%APPDATA%\Microsoft\Windows\SendTo\` and adding your own shortcuts from there.
+
+If for whatever reason you want to download the original first version, [you can do so by clicking here](https://mega.nz/file/iLATxRCR#dBt5N4oJoKqupVTdRjZcJmKt2WINjHx17JmG5XmkgN8).
 
 You can do whatever you want with this program if it's for personal use. All I ask is that you plan to share your modified version around, keep the `echo VideoShrinker script made by elPatrixF.com - 2025` line and the cool Ascii title intact.
 Linking back to this github page is appreciated too!
