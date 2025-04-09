@@ -52,6 +52,8 @@ A: Navigate to the folder C:\ProgramData\VideoShrinker\ and double click on "ins
    If your video is in a different format the context menu option might not show up, but ffmpeg can decode from 
    a huge variety of video formats. The output format will be MP4. You *can* change it by pressing "E" but it's
    not recommended, as H.264 is not compatible with all formats (like WEBM for example).
+   Alternately, if the Shrink Video option is not showing up due to the file being on a more obscure file extension
+   (but still supported by ffmpeg) you can use the "Send to" context menu option on any file format.
    
 > Q: How do I uninstall this program?
 
